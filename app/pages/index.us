@@ -6,6 +6,17 @@
     <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
   </head>
   <body>
+    <h1>Welcome to the Awesome HVAC System</h1>
+    <form name="set-hvac" action="">
+      <label for="minimum-temp">Minimum Temperature:</label>
+      <input type="text" id="min-temp" name="min-temp"/>
+      <br/>
+      <label for="maximum-temp">Maximum Temperature:</label>
+      <input type="text" id="max-temp" name="max-temp"/>
+      <br/>
+      <button type="submit">Set It</button>
+    </form>
+
     <script type="text/javascript" src="<%= js %>"></script>
   </body>
 </html>
