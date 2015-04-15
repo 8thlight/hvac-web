@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1>Welcome to the Awesome HVAC System</h1>
-    <form name="set-hvac" action="">
+    <form id="hvac-form" action="">
       <label for="minimum-temp">Minimum Temperature:</label>
       <input type="text" id="min-temp" name="min-temp"/>
       <br/>

@@ -1,14 +1,14 @@
 describe("HVAC Dialog", function(){
 
   beforeEach(function() {
-    affix("form#id[name='hvac-form'] input[name='max'] input[name='min']");
+    affix("form#hvac-form input[name=max] input[name=min]");
   });
 
-  it ("it is initialized with a form id and gets the values of the input", function() {
-    $("input[name='max']").val(20);
-    var hvacDialog = ssi.HVACDialog.bind("#id");
+  it ("it is initialized with a form id and gets the max value", function() {
+    $("input[name=max]").val(20);
+    var hvacDialog = ssi.HVACDialog.bind("#hvac-form");
 
-    expect(hvacDialog.max()).toEqual(20);
+    expect(hvacDialog.max()).toEqual('20');
   });
 
 });
