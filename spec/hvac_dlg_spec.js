@@ -1,4 +1,4 @@
-describe("HVAC Dialog", function(){
+describe("HVAC Dialog", function() {
 
   beforeEach(function() {
     affix("form#hvac-form input[name=max] input[name=min]");

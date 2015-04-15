@@ -1,0 +1,3 @@
+extend("ssi.HVAC.SmartDialog", {
+
+});
